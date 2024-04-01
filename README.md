@@ -4,7 +4,7 @@ This repository contains code to deploy to kubernetes.
 
 Type of code and their respective paths are, 
 
-  * flux/*  :  Deployment/Sync Manifests for FluxCD.   
+  * flux/*  :  Deployment/Sync Manifests for fluxcd.   
   * kustomize/*  : Either plain YAMLs or additinally environment specific kustomize overlays. 
   * helm/* : Helm charts source code. 
 
