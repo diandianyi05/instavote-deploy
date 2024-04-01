@@ -11,7 +11,7 @@ replicas:
 images:
 - name: schoolofdevops/vote
   newName: hebeyi/vote
-  newTag: main-7b42780e-1711528204 # {"$imagepolicy": "instavote:vote:tag"}
+  newTag: main-19517cfc-1711608860 # {"$imagepolicy": "instavote:vote:tag"}
 commonLabels:
   project: instavote
   env: staging
