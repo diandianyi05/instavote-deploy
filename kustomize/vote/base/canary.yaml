@@ -29,13 +29,13 @@ spec:
     # container port number or name
     targetPort: 80
   analysis:
-    # schedule interval (default 60s)
-    interval: 30s
-    # max number of failed metric checks before rollback
-    threshold: 3
-    # --- enable this for blue/green
-    # number of checks to run before rollback
-    iterations: 5
+    # # schedule interval (default 60s)
+    # interval: 30s
+    # # max number of failed metric checks before rollback
+    # threshold: 3
+    # # --- enable this for blue/green
+    # # number of checks to run before rollback
+    # iterations: 5
     # ---
     # === enable this for canary
     # max traffic percentage routed to canary
