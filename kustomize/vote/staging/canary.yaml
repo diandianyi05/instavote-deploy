@@ -5,6 +5,13 @@ metadata:
   namespace: instavote
 spec:
   analysis:
-    interval: 30s
-    threshold: 3
-    iterations: 5
+    # for blue/green deployment
+    # interval: 30s
+    # threshold: 3
+    # iterations: 5
+
+    # for canary deployment
+    interval: 10s
+    threshold: 10
+    maxWeight: 50
+    stepWeight: 5
