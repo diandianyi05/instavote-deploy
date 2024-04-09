@@ -9,10 +9,10 @@ patchesStrategicMerge:
 replicas:
 - name: vote
   count: 0
-# images:
-# - name: schoolofdevops/vote
-  # newName: hebeyi/vote
-  # newTag: main-19517cfc-1711608860 # {"$imagepolicy": "instavote:vote:tag"}
+images:
+- name: schoolofdevops/vote
+  newName: hebeyi/vote
+  newTag: main-19517cfc-1711608860 # {"$imagepolicy": "instavote:vote:tag"}
 commonLabels:
   project: instavote
   env: staging
